@@ -3,7 +3,7 @@
 This project demonstrates configuration of the system clock (SYSCLK) using PLL on an STM32 microcontroller, with focus on understanding the clock tree and register-level behavior.
 Used board: STM32F446RE Nucleo
 
-Objective:
+# Objective:
 
 Configure SYSCLK to different frequency values using PLL and observe system behavior at higher clock speeds.
 
@@ -13,7 +13,7 @@ Tested Configurations
 120 MHz
 180 MHz (maximum supported frequency)
 
-PLL Configuration:
+# PLL Configuration:
 
 PLL was configured using the standard formula:
 
@@ -32,7 +32,7 @@ SystemClock_Config_HSE()
 
 HAL RCC functions were used during configuration.
 
-Verification
+# Verification
 
 Due to lack of external measurement equipment, verification was performed using indirect methods:
 -Observing registers:
