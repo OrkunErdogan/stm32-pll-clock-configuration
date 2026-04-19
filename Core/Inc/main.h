@@ -2,7 +2,7 @@
  * main.h
  *
  *  Created on: Feb 15, 2026
- *      Author: serer
+ *      Author: Orkun Erdoğan
  */
 
 #ifndef INC_MAIN_H_
